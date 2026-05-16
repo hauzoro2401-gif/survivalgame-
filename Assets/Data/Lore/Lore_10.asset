@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Lore_10
+  m_EditorClassIdentifier: Assembly-CSharp::LoreData
+  fragmentNumber: 10
+  title: "S\u1EF1 th\u1EADt v\u1EC1 c\u1ED5ng"
+  content: "C\u1ED5ng kh\xF4ng d\u1EABn v\u1EC1 nh\xE0.\n\nN\xF3 d\u1EABn \u0111\u1EBFn...
+    [ph\u1EA7n n\xE0y b\u1ECB x\xF3a]. Ch\xFAng ta ph\u1EA3i ch\u1ECDn: bi\u1EBFt
+    s\u1EF1 th\u1EADt hay tr\u1EDF v\u1EC1 b\xECnh y\xEAn?\n\n\u2014 Linh (ghi ch\xFA
+    cu\u1ED1i)"
+  hiddenContent: 
+  isCollected: 0

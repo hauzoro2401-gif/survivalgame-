@@ -1,0 +1,1069 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN" at "2026-05-16T13:10:18.7641872Z"
+Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-16T13:10:18Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/ADMIN/My project (1)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50648
+-licensingIpc
+LicenseClient-ADMIN
+-force-d3d12
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ADMIN/My project (1)
+C:/Users/ADMIN/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [12680]  Target information:
+
+Player connection [12680]  * "[IP] 192.168.176.1 [Port] 0 [Flags] 2 [Guid] 3590522392 [EditorId] 3590522392 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F9RCA94) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12680]  * "[IP] 172.21.160.1 [Port] 0 [Flags] 2 [Guid] 3590522392 [EditorId] 3590522392 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F9RCA94) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12680]  * "[IP] 192.168.1.246 [Port] 0 [Flags] 2 [Guid] 3590522392 [EditorId] 3590522392 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F9RCA94) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12680] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12680] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 24.05 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 3.61 ms.
+Initialize engine version: 6000.4.6f1 (0b051c2e5d54)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ADMIN/My project (1)/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:          NVIDIA
+    VRAM:            7956 MB
+    App VRAM Budget: 7188 MB
+    Driver:          32.0.15.9636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ADMIN"
+[Licensing::IpcConnector] LicenseClient-ADMIN channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN-6000.4.6" at "2026-05-16T13:10:21.8107709Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 37700, path: "C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              190b87fb395a4151b874e8f85aa575e1
+  Correlation Id:          a3172713846d7d476502a0228baebfb1
+  External correlation Id: 2605978558075371210
+  Machine Id:              GfKmhwdHKhLsog/WWB1eyLeOCDU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ADMIN-6000.4.6" (connect: 0.04s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN-6000.4.6-notifications" at "2026-05-16T13:10:21.8230522Z"
+[Licensing::Module] Licensing Background thread has ended after 3.06s
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.589404 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.525 seconds
+Domain Reload Profiling: 1826ms
+	BeginReloadAssembly (218ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (719ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (214ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (265ms)
+				TypeCache.ScanAssembly (234ms)
+	FinalizeReload (527ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968349409859-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 7.74 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 13.42 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.638 seconds
+Domain Reload Profiling: 7005ms
+	BeginReloadAssembly (234ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (198ms)
+	LoadAllAssembliesAndSetupDomain (1878ms)
+		LoadAssemblies (1143ms)
+		AnalyzeDomain (843ms)
+			TypeCache.Refresh (594ms)
+				TypeCache.ScanAssembly (548ms)
+			BuildScriptInfoCaches (221ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (4639ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (482ms)
+			ProcessInitializeOnLoadAttributes (2694ms)
+			ProcessInitializeOnLoadMethodAttributes (990ms)
+			AfterProcessingInitializeOnLoad (20ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.14 ms, found 6 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11106 unused Assets / (23.0 MB). Loaded Objects now: 11961.
+Memory consumption went from 236.9 MB to 213.9 MB.
+Total: 51.255800 ms (FindLiveObjects: 1.922500 ms CreateObjectMapping: 2.248200 ms MarkObjects: 33.936700 ms  DeleteObjects: 13.144500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 271116.435299 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Buttons/Restart.png
+  importAddress: Guid(47995868114293c47b9f4695ded7023f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Buttons/Restart.png using Guid(47995868114293c47b9f4695ded7023f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7bb49dc1df03053cbade9c6804e49be4') in 0.241369 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ec2fdd147b647b7dcf6c639dcc4e59a DependenciesID=2174edda5e47c26333b8fcf1615549ae StaticDependenciesID=6f5e4d2808f03ee667ec1e6ec3e3c3fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items/Fruits/Bananas.png
+  importAddress: Guid(02ce4adc3a9b35447a8403da416873f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items/Fruits/Bananas.png using Guid(02ce4adc3a9b35447a8403da416873f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7adb2abb274e5954f781ba788b17d91c') in 0.0525326 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=318b4bf01f48bf888b364fb37a2ed7ae DependenciesID=4105464046eab9d6c7c01d54fefdd201 StaticDependenciesID=a6ac6fce803e87fca5c9a9e7e43401ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/40.png
+  importAddress: Guid(a60b44e252a57ea4685e3b71513da601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/40.png using Guid(a60b44e252a57ea4685e3b71513da601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13660e10abef83790c8aed29ced86bbd') in 0.0290213 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47bc338461abb608e0dd8419b6238850 DependenciesID=131ff5e23f36b928bce37623c5cafbec StaticDependenciesID=f541dee8b84012d72da6e68c975b7e75 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Rock Head/Blink (42x42).png
+  importAddress: Guid(57e27f934d35380459e28c26b8c58b52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Rock Head/Blink (42x42).png using Guid(57e27f934d35380459e28c26b8c58b52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e1589dd5758c33079ca669cbacb7ab09') in 0.0342105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c608aab1f4dcf96c14c9e60f9cca5309 DependenciesID=530be65276752de4e0faca861aa682e3 StaticDependenciesID=382d175c828cad77988de3ff815fdfdd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Pink Man/Wall Jump (32x32).png
+  importAddress: Guid(e36c0628bc690804987dee2b60276870) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Pink Man/Wall Jump (32x32).png using Guid(e36c0628bc690804987dee2b60276870) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'af7bd136df1ae7e033257c28990da75e') in 0.0384068 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f822d7e4c3b81c529c68ebfbee1922c DependenciesID=9353f754714c2a7f238ad8d04c6895a2 StaticDependenciesID=35a35b4962231cff8ee6a20ba886ca24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Platforms/Grey Off.png
+  importAddress: Guid(4a5206ed06e191d448d925b29ac9fbf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Platforms/Grey Off.png using Guid(4a5206ed06e191d448d925b29ac9fbf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da51b3e083296aa85d9e71a11efd2185') in 0.0248978 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c397209a911e75cb0d37655d9fddb16 DependenciesID=613cca415dcf7b728d7432d43c858dd1 StaticDependenciesID=4777f115966dcc50064495f8fd682708 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Ninja Frog
+  importAddress: Guid(e68cd55a01e770e4394ab1ce275c6827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Ninja Frog using Guid(e68cd55a01e770e4394ab1ce275c6827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2b73769ba1e39a20520a456cf071f469') in 0.0168208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5e11c29a9995741a17401e524ca081b DependenciesID=2b910e1530eb20636244688d2615b370 StaticDependenciesID=81ee47b2a830a4c626c3c6bc22deca92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/LightFlicker.cs
+  importAddress: Guid(9052789ed0739ff459521bcdfff32ad5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/LightFlicker.cs using Guid(9052789ed0739ff459521bcdfff32ad5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc1141f2246bdf6f6404cde71f3f64ba') in 0.0187883 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ad0574cd08bb9298a07506467e84ea0 DependenciesID=0a32a083edf47de9c0ccaafb99041328 StaticDependenciesID=27a055f0295889baa1771d02893fbe9b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Buttons/Leaderboard.png
+  importAddress: Guid(fee9417e9beb00f4283c964a48e443b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Buttons/Leaderboard.png using Guid(fee9417e9beb00f4283c964a48e443b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c89d21e3e0b76eef45020ed8f5d600e') in 0.0235442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=895457f870a3aa7c1dcf4bff49eea1f3 DependenciesID=ae7e7652f42efb53968c93a2bb640183 StaticDependenciesID=794f07f16eb258f27f6c6823ae7de543 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items/Boxes/Box3/Idle.png
+  importAddress: Guid(9ce73db418eea71498b0a5fdbec6b3c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items/Boxes/Box3/Idle.png using Guid(9ce73db418eea71498b0a5fdbec6b3c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65662aac7501ae9dd409aeb41b090d1b') in 0.0246491 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c90e5d7430b2dc53cb911f61a2d678a DependenciesID=cb324a0609aeea4c5093505d010093cd StaticDependenciesID=7b2b0aaa700d33b293df436249324d7e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Background/Purple.png
+  importAddress: Guid(0f3126fa113940d46b88e709a8f7d646) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Background/Purple.png using Guid(0f3126fa113940d46b88e709a8f7d646) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2fcaf6c5eba6253f0b075475c0db0c8e') in 0.0281424 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b3ea43d53fc67fb5d262c208fa6e9cc DependenciesID=b01290eb17cfedfd93266f952c9c5438 StaticDependenciesID=6b8279545e96de6bed42316935575213 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Background
+  importAddress: Guid(7aaac2d738f2f6642b8003b2d859e393) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Background using Guid(7aaac2d738f2f6642b8003b2d859e393) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cfd420870d54508d732e1e8aac24c1e4') in 0.0181843 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70b7aaab10fa01608f957d024d286c80 DependenciesID=1911b05169efe8e4f712081ae579c45e StaticDependenciesID=698c5103b724f36473f4f8df9492a557 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free
+  importAddress: Guid(4c64b4412e82b954d87ca58e7550d987) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free using Guid(4c64b4412e82b954d87ca58e7550d987) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7643b1d4eccdc472d1968ccf1ee2938b') in 0.0183554 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9289924ddfdc56a3a339a49e1f69dee DependenciesID=843925ab59ee805c2c9ff89db478f1c7 StaticDependenciesID=bc06d0bd8aea4aeb955ee0bb896aac46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Mask Dude/Double Jump (32x32).png
+  importAddress: Guid(a8fda70a67aa8a44a82285d2709620f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Mask Dude/Double Jump (32x32).png using Guid(a8fda70a67aa8a44a82285d2709620f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd96a40a5a1042a962073cf8cea5ec303') in 0.0372855 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47e3542246cdb74e9107c913bd96eb38 DependenciesID=d4b68a4ac3be458efe3c6c80a6ed2a25 StaticDependenciesID=def22e1feb0c201cef9baf13b240629b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Platforms/Brown Off.png
+  importAddress: Guid(a9424a800c54f0348ace5464bdd130dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Platforms/Brown Off.png using Guid(a9424a800c54f0348ace5464bdd130dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e3e7ea2a1f5fc02b0a4e37b3e4c57833') in 0.0276708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6486945904bf5bc758ba6a4b1982d69d DependenciesID=515abc4792c70e0b634b9a84883932ee StaticDependenciesID=55749370a1628c54a2335cdd4f06104e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items/Fruits/Orange.png
+  importAddress: Guid(a3248d95bdd464c4e8dab7ea3f3f4a30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items/Fruits/Orange.png using Guid(a3248d95bdd464c4e8dab7ea3f3f4a30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fa7ee8dafe9282ca088fffd3ae695ec9') in 0.0617978 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69b64c0b3c09a524643811f3fae4bd26 DependenciesID=77c5302d9e3581b66e25479200e610e6 StaticDependenciesID=f0ffcfc02e5a1f20ea1d8e80bdf09e64 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Mask Dude
+  importAddress: Guid(b34970659805a7446b2b600e2b24bad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Mask Dude using Guid(b34970659805a7446b2b600e2b24bad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed90656bbb88c63eb39759d581b9adb7') in 0.0208386 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07422ab79dbc0431f76c7d401be3c821 DependenciesID=146e1bb4a4996053e6229dabff2c6193 StaticDependenciesID=9b0461cdfef8d2c0159dc5d87d1fcd6c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/08.png
+  importAddress: Guid(e69f14bc0dfd58f49bd7bdf491bea66d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/08.png using Guid(e69f14bc0dfd58f49bd7bdf491bea66d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7f08a5d7988ea40557954359fbddd931') in 0.0275065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b477e6836d415b9d70c2edb70b1de0c8 DependenciesID=1a75fbf49960d47dfe7c2b39ac116a74 StaticDependenciesID=b3f5a4206ced30c2ecc41ac9d2fde243 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items/Checkpoints/End/End (Idle).png
+  importAddress: Guid(718aa27365ed7df4cb41e3a4d6a38926) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items/Checkpoints/End/End (Idle).png using Guid(718aa27365ed7df4cb41e3a4d6a38926) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e44514e9fa8bce42818385166b14e80b') in 0.02948 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2510000abebfee75d369f3c55c11dbea DependenciesID=6ac089362da58f39f25308e9f6a51eaf StaticDependenciesID=17530d61864a84c79c1611c90ceca4e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Mask Dude/Wall Jump (32x32).png
+  importAddress: Guid(ebd917ad50be7aa4a9255af780ee427c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Mask Dude/Wall Jump (32x32).png using Guid(ebd917ad50be7aa4a9255af780ee427c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f75bdb68529f250e4463d47f1937bce5') in 0.0354689 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e6591c62c5a12b348df71c09d9c6bbfa DependenciesID=3e66b9fbca1753e90095db2d3f6e1264 StaticDependenciesID=5d190a7cf16791bce173d10decb2362d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/38.png
+  importAddress: Guid(f16ffd60aa80e1449b5deccd9356c4ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/38.png using Guid(f16ffd60aa80e1449b5deccd9356c4ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '20c10833c2835cae8122af3ffa4828e8') in 0.0203552 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68c84cad385a5203fdaf483325330849 DependenciesID=e1cf8428203d0c0598fddc186f1a95ea StaticDependenciesID=f0948b2acaacab7960070a1b76e7a766 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Background/Brown.png
+  importAddress: Guid(e41b773acdbc548488f66aca0e30df82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Background/Brown.png using Guid(e41b773acdbc548488f66aca0e30df82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3faba588f7c4563ac0db2d22b610c3b5') in 0.0200642 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ed1321800a373715de0a8457586e19d DependenciesID=5d74fa59c3dd4f3699e572950801cf7b StaticDependenciesID=7c30b9aef8e540e55246879db1eb7fa0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/16.png
+  importAddress: Guid(2b9b35340f79e20499cbcb0dc7abaa50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/16.png using Guid(2b9b35340f79e20499cbcb0dc7abaa50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4f63bdd1dbcb4b2bc9f931c7881ea97d') in 0.0191683 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a22ef4f08d005bc274a0769e9e780b9f DependenciesID=57d3b26a5b35b31569db405dece19ad8 StaticDependenciesID=dfc4dcff0d7b4567b2c67719f3eb66f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Platforms/Brown On (32x8).png
+  importAddress: Guid(427a26fb5c4a737418b7034fe1213112) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Platforms/Brown On (32x8).png using Guid(427a26fb5c4a737418b7034fe1213112) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1bd7e53020d64da7c191cb6172786e88') in 0.0209373 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85d7cd4d7af72faca2e36c4a8b059908 DependenciesID=6ac2cdc8dabdbae10bc361b7028a9386 StaticDependenciesID=a15ab5ee140545bcddd247466c07cca0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Spikes/Idle.png
+  importAddress: Guid(4da59c0fe99286144b6b2c507680e3f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Spikes/Idle.png using Guid(4da59c0fe99286144b6b2c507680e3f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2606911ef2ae7a91a97bd2343cdc7429') in 0.020638 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a20c202ee3514c093032c67ecc41549 DependenciesID=29b7fbd652ffb1fa3c311f7c101154ea StaticDependenciesID=d196fce5e7d7209eb6c6001fda92fa61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/09.png
+  importAddress: Guid(94f46756e0ee32548bddc4195b9d029b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/09.png using Guid(94f46756e0ee32548bddc4195b9d029b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cd6050f422e91e73a11842c17c000a3f') in 0.0182931 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d79b201b07ab4135109bd0b6b14ea5ef DependenciesID=879e1445a737d3bae9da25b8e7739d9d StaticDependenciesID=30c406fd07bc882646394e79dcc2d29b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Rock Head/Bottom Hit (42x42).png
+  importAddress: Guid(7bab9c8d5015c764a91101717ce25abf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Rock Head/Bottom Hit (42x42).png using Guid(7bab9c8d5015c764a91101717ce25abf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f78c4d13599c8818a92355f2c4bac77f') in 0.0259225 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56b9ff2ca5db101b39e230eee50f1cfe DependenciesID=8d781a4ac0eda984f0a7e13b8e8eb1e6 StaticDependenciesID=9623808077693cb5906cb855fdf166f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Spiked Ball/Spiked Ball.png
+  importAddress: Guid(88f29ee7edf01114bbe62122177d39b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Spiked Ball/Spiked Ball.png using Guid(88f29ee7edf01114bbe62122177d39b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ebe740f8c14253343b52a8b1a004ada7') in 0.0251189 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9716b464d063797bccded92fe63b63fa DependenciesID=2866091ea36c815d7bdb5b68096e32e7 StaticDependenciesID=824b2b9ed7a58f3703c86cc0aaeb94d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Sand Mud Ice
+  importAddress: Guid(833eac1518929cd4fb8caa6324ec7ef9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Sand Mud Ice using Guid(833eac1518929cd4fb8caa6324ec7ef9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2071816a9ce570f39f9a1f13ac7af70') in 0.0156591 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4df25b0d639b2caa5081055ca830b7d3 DependenciesID=b583ccf7bb95331c2f8447e1e7c766d1 StaticDependenciesID=cc3f8d5dd2107907cd7ee595b54348e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items/Fruits/Apple.png
+  importAddress: Guid(6404b093b4e076048b4b9d872870dd58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items/Fruits/Apple.png using Guid(6404b093b4e076048b4b9d872870dd58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5d3a64e49875a72b415edcb123c5ccda') in 0.0292102 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2956897b30b7f2a9bb4b86f3668161ae DependenciesID=a2f526af7c5ee68317429f5f9ff85211 StaticDependenciesID=774b692f8282f410c69833d02f81e54a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/31.png
+  importAddress: Guid(bf1dced4df69ec143a7ae823cc7a528f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/31.png using Guid(bf1dced4df69ec143a7ae823cc7a528f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e699979459f84c7357ff526df174f1fe') in 0.0196313 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e574b59e6dbade7bfd51d7d15d241cd DependenciesID=6cc88a63110a6527760fe7f1b9797434 StaticDependenciesID=1f2f00e73cbbba7ddcadc241b06cb223 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Spike Head/Top Hit (54x52).png
+  importAddress: Guid(500901dcbd65f86438eea48cb663cd58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Spike Head/Top Hit (54x52).png using Guid(500901dcbd65f86438eea48cb663cd58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '578e3dd8cd06e438466edd56e176e3cc') in 0.0258133 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d125b43240a3a74c1afb263f501c398e DependenciesID=e4b3ac759d5499bd7da7f238efd775ae StaticDependenciesID=0f77c636f8cc0e928560429b2d776196 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/15.png
+  importAddress: Guid(534155c40d06aa846b53ab0c952dc917) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/15.png using Guid(534155c40d06aa846b53ab0c952dc917) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c76341d45fcda9d7e0957631ef1acac1') in 0.0187202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72ee9f612c8c24c78ff81183f1e723e7 DependenciesID=f61844205b4e5b597b0ac521ae6ba7e7 StaticDependenciesID=946089bac089d6901f3147ee5d8a20f8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/25.png
+  importAddress: Guid(e8c71d0436ac80640883627329ec81b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/25.png using Guid(e8c71d0436ac80640883627329ec81b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '196907cbac42c904579ec2330a599377') in 0.0199245 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e003a9dd87aa9420c4dfef88eddeafa3 DependenciesID=69b518fc2b1c213c938fba9aa4233c3e StaticDependenciesID=abf94c3881b11016aa664ab08c8d7a16 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png
+  importAddress: Guid(98b669d65a3dad1478a65360923daad7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png using Guid(98b669d65a3dad1478a65360923daad7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f62304f0e1e925aedddccd0b1b9bb6f5') in 0.0441169 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b26c266b788df228c4eee261dcf377d DependenciesID=fcfaafaeb5a4f7da45c9061576b1fb2a StaticDependenciesID=c5817790cb30142bc5d29a9bdd3f4fb0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Background/Yellow.png
+  importAddress: Guid(4323d7267c75144439103ba0e2acf413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Background/Yellow.png using Guid(4323d7267c75144439103ba0e2acf413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7f5cea830258a07987cd13a7cbec71f4') in 0.0228144 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c81d5e9a2b125372af47392f3a731c34 DependenciesID=f796ddd1fc8cc23592444acce304c1e6 StaticDependenciesID=5a212133650b68db77a51f9032b3e7d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Text/Text (White) (8x10).png
+  importAddress: Guid(677940ed8c604bd488cba5eeb5258b34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Text/Text (White) (8x10).png using Guid(677940ed8c604bd488cba5eeb5258b34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '071107e0d9e153d99f30726153d15078') in 0.0429173 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c27fca870e7f5d0b49037ec8f75ba50a DependenciesID=59c1e95dc5405069555f3989e7ae2885 StaticDependenciesID=bfb2b6dd94c50943eecb89bc113ce4f5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/49.png
+  importAddress: Guid(10247048a97a7d844a5caabd797b0639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/49.png using Guid(10247048a97a7d844a5caabd797b0639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1d0f7111eb4124ebcd02f2878ab04aa3') in 0.0216848 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=190417e81f13964d1495a8b77640efe8 DependenciesID=5910f6e43415e4fc611f46d721c256cc StaticDependenciesID=482caa01a0022595bc43ae3d20f677a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Rock Head/Top Hit (42x42).png
+  importAddress: Guid(3b78c077d32e080448e3e636d551c9f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Rock Head/Top Hit (42x42).png using Guid(3b78c077d32e080448e3e636d551c9f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '907febe210d47018a97f70e2bd4dd8e5') in 0.0279624 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab91a652d4dac0c0e6aa36a7c75ab06c DependenciesID=73ac6fc3ed18d76a9cecbef8289d00d7 StaticDependenciesID=3a440e66e7651fe3a5cfbad2ca1ca1d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Pink Man/Idle (32x32).png
+  importAddress: Guid(574e94d9cc1abeb48b3818d3050a5e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Pink Man/Idle (32x32).png using Guid(574e94d9cc1abeb48b3818d3050a5e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '837488c24a356a3432a69ca0d6145b16') in 0.0288466 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e98f9ee5e51521ebeffba67f0e847730 DependenciesID=20508af38dcf7ab8ed0a61def47aa265 StaticDependenciesID=140fec336f4358062689f6b39884cc6c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/18.png
+  importAddress: Guid(9a265919e0ff89a48bde01a3d249a48c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/18.png using Guid(9a265919e0ff89a48bde01a3d249a48c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b8ee5bcc37069b49e619d5703c60be4') in 0.0191792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=268ba144b1d667e77e00a61aabd50836 DependenciesID=18d37ad677c1818e6c379f78bdd054a0 StaticDependenciesID=4d8c960f10654d7300a3047d3f8b3631 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/UIThemeManager.cs
+  importAddress: Guid(06b4d6c1098f5bb48ac3c6b915523da8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/UIThemeManager.cs using Guid(06b4d6c1098f5bb48ac3c6b915523da8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2b6bf429704adc75d33d9b38bf624ba') in 0.0156967 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1cb84b9bc46b7e4147ab27d96ee4ca46 DependenciesID=2735b936d8ec8ffa5bd74b8fb624c2d6 StaticDependenciesID=10bc4bf9102c3c756b4f504665b79083 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/12.png
+  importAddress: Guid(dd205618a7e454749bb98e7d4e2a402f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/12.png using Guid(dd205618a7e454749bb98e7d4e2a402f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fdcc27c27613571a1e6894c8afa473d4') in 0.0206381 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23aea5d05c9b3aa04feb6c7607230ade DependenciesID=7769a1bd24fb050784d197c3c4317059 StaticDependenciesID=bd40d560eba53d41dbef72c4810f15a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items/Fruits/Cherries.png
+  importAddress: Guid(25f9071a03678184388779375d7c8c0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items/Fruits/Cherries.png using Guid(25f9071a03678184388779375d7c8c0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8710183382741dbf38036772f743ddab') in 0.0366347 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2dcc5ca392ea21b6a0d39a345a7b6656 DependenciesID=dc1e533f24ba3f30e23e8fdb4246d99b StaticDependenciesID=6428f9621dea4ba5fa672fe11ae7f715 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Blocks
+  importAddress: Guid(04860f91a8201d14197cb49c1970165f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Blocks using Guid(04860f91a8201d14197cb49c1970165f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7d729f69dcf31c4a2d066391d600ad69') in 0.0181079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85c8b13837e44facec0cc1eb102ffc5f DependenciesID=ed26e0e387b468bd8770ec15e48e125f StaticDependenciesID=fc882a5d76d6581c20dcff0eee74b3c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Editor/SpriteMapper.cs
+  importAddress: Guid(0b37c96a077844b46b9fd4688c798879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/SpriteMapper.cs using Guid(0b37c96a077844b46b9fd4688c798879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '37ad1a8c3ede5ec3278cd1fc30a5bd81') in 0.0184212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a30764cab2b5a07f8a14f98b604a1328 DependenciesID=2c998ac97152f577a93b7e125480e98a StaticDependenciesID=31e257c1a7c0fc33055da96b20d00492 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/07.png
+  importAddress: Guid(0bd6cd38449c75c459586f29a1394778) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/07.png using Guid(0bd6cd38449c75c459586f29a1394778) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f4dc7e2d2efe71fcdb4b8ee43ad9ef93') in 0.0204784 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b849ff3392221ef305af74dfe3333a05 DependenciesID=791a7b2d44ba9dc94110931364d148fb StaticDependenciesID=7d187157ab05f62703c44af243eef210 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/10.png
+  importAddress: Guid(c0fbdc6f15dc6444e9ca3ab2bef2548b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/10.png using Guid(c0fbdc6f15dc6444e9ca3ab2bef2548b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '788b9d1bd2bf3999e86ea277964b2a4e') in 0.0260015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54c552edb4efde8c44c70fdf002587d8 DependenciesID=8c5ddfbb705260394a8cc124210e2adf StaticDependenciesID=2330e38a9661e4de55471a494da61075 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items
+  importAddress: Guid(8d46e27858c77af459a11df9c3b7f0a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items using Guid(8d46e27858c77af459a11df9c3b7f0a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2a88f896146060fcf443c204bb7db8c') in 0.0168787 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19f5c4eccdd119e3b7d055119a6aa00e DependenciesID=402b5740ed5bab6d0f8924c580ae7fc7 StaticDependenciesID=a808a61c769d6a18834b2cf4c41d9d55 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/43.png
+  importAddress: Guid(647ce04a2300aa64aa4539ad48c25784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/43.png using Guid(647ce04a2300aa64aa4539ad48c25784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '550163fc0e7ff8b787480119d337f424') in 0.0228405 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35be31b5506b63782a88ea5cd164d6ab DependenciesID=dfe70e983375a6e5265ff8d34b8fe756 StaticDependenciesID=9c18176f0e9ba746e329cda697c6de2b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Arrow/Idle (18x18).png
+  importAddress: Guid(382f865ca71aaff45b5da678fe6d5dd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Arrow/Idle (18x18).png using Guid(382f865ca71aaff45b5da678fe6d5dd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '08a4b2af889de37d05e9de49bf152afa') in 0.0294771 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=89649a91f6b83a03d501c9e72d879a7d DependenciesID=20a6a9976e5fa09036c0c4fc481e3fbd StaticDependenciesID=42f7aeef415f5ec9839c05fdfdb45254 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Jump (32x32).png
+  importAddress: Guid(438fb58d8fff4cd479a656b474ac2e64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Jump (32x32).png using Guid(438fb58d8fff4cd479a656b474ac2e64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e84ef36b3ca79f782338b4386aae23b0') in 0.0218493 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=897051d5621909505aceeae8d00d7947 DependenciesID=5f1741ad8ab272123f5b233e96484506 StaticDependenciesID=a778135e3db2fac2d875c5706c7242c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Items/Boxes/Box3
+  importAddress: Guid(6e4abde2bf06a8648b66df3dfd195ebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Items/Boxes/Box3 using Guid(6e4abde2bf06a8648b66df3dfd195ebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd092550206be3d0bc7cb93481ceeca2e') in 0.019311 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eedacedb34177b38230151fe98be6c95 DependenciesID=f5ba63951b79fdffd19017377c616067 StaticDependenciesID=584800240267d49b53a839c6747f394b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Pink Man/Hit (32x32).png
+  importAddress: Guid(c6920ccbbba466f4cada18a514dc257f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Pink Man/Hit (32x32).png using Guid(c6920ccbbba466f4cada18a514dc257f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9b18892e4ca9bd2a042ed5ca4b32540a') in 0.0314541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b42c88366f6e37ff06cead89a8790226 DependenciesID=86cae05ad5041543f06ff94c536b2e43 StaticDependenciesID=008d519412402becc1bba61e2bb3ad94 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Mask Dude/Fall (32x32).png
+  importAddress: Guid(2499841a522b5d6429e99d04952b58b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Main Characters/Mask Dude/Fall (32x32).png using Guid(2499841a522b5d6429e99d04952b58b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '92043d759f71bc04d16d8a4fbb6a6b3d') in 0.0216202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fc21748c1bea4f2f25646bf7d79ca46 DependenciesID=9ba8c7e25f96accbfbeb9ecbd3c72a0c StaticDependenciesID=66d22358e5a50be643734831a1c2d91e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/05.png
+  importAddress: Guid(30f867dcf1bc70243bdefc4debee0427) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Menu/Levels/05.png using Guid(30f867dcf1bc70243bdefc4debee0427) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad05bc75578ae8983deed0f2527a3e44') in 0.0210261 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24f730773531d0c14c468db2a32efdb5 DependenciesID=0b1aba830b74200ee83eca70787fb799 StaticDependenciesID=2563ed73074bfddb663c8cf8d677c264 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Free/Traps/Rock Head/Idle.png
+  importAddress: Guid(304aab9ba93a8b345b28b76bcb68f285) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Pixel Adventure 1/Free/Traps/Rock Head/Idle.png using Guid(304aab9ba93a8b345b28b76bcb68f285) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '44dba30775161e0b40545ac5b032b19c') in 0.0240764 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a8c8a266db7d68048020ae4b002635a DependenciesID=b246f64db0622bcf20e3e462f9238857 StaticDependenciesID=bc394bf2a59e6b74915b80911ad00ff3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 4.31 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 4.42 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.991 seconds
+Domain Reload Profiling: 3293ms
+	BeginReloadAssembly (283ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (854ms)
+		LoadAssemblies (517ms)
+		AnalyzeDomain (420ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (392ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1992ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (933ms)
+			ProcessInitializeOnLoadMethodAttributes (567ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 5.41 ms, found 6 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11104 unused Assets / (22.7 MB). Loaded Objects now: 11967.
+Memory consumption went from 238.2 MB to 215.5 MB.
+Total: 37.226000 ms (FindLiveObjects: 1.837900 ms CreateObjectMapping: 1.982100 ms MarkObjects: 22.814600 ms  DeleteObjects: 10.589300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 3.65 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 5.65 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.744 seconds
+Domain Reload Profiling: 3131ms
+	BeginReloadAssembly (308ms)
+		DisableScriptedObjects (20ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (923ms)
+		LoadAssemblies (587ms)
+		AnalyzeDomain (433ms)
+			TypeCache.Refresh (16ms)
+			BuildScriptInfoCaches (404ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1744ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (253ms)
+			ProcessInitializeOnLoadAttributes (808ms)
+			ProcessInitializeOnLoadMethodAttributes (442ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.41 ms, found 6 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11105 unused Assets / (16.8 MB). Loaded Objects now: 11971.
+Memory consumption went from 241.4 MB to 224.6 MB.
+Total: 25.702000 ms (FindLiveObjects: 1.362800 ms CreateObjectMapping: 1.601500 ms MarkObjects: 16.817600 ms  DeleteObjects: 5.918300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 4.64 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 5.42 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.985 seconds
+Domain Reload Profiling: 3318ms
+	BeginReloadAssembly (352ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (147ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (830ms)
+		LoadAssemblies (499ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (394ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1985ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (269ms)
+			ProcessInitializeOnLoadAttributes (892ms)
+			ProcessInitializeOnLoadMethodAttributes (534ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 5.57 ms, found 6 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11105 unused Assets / (21.9 MB). Loaded Objects now: 11974.
+Memory consumption went from 250.4 MB to 228.5 MB.
+Total: 33.304000 ms (FindLiveObjects: 1.468800 ms CreateObjectMapping: 1.142500 ms MarkObjects: 20.911600 ms  DeleteObjects: 9.777300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 4.63 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 4.75 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.908 seconds
+Domain Reload Profiling: 3275ms
+	BeginReloadAssembly (368ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (149ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (834ms)
+		LoadAssemblies (548ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (9ms)
+			BuildScriptInfoCaches (370ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1908ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (264ms)
+			ProcessInitializeOnLoadAttributes (865ms)
+			ProcessInitializeOnLoadMethodAttributes (522ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.71 ms, found 6 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11105 unused Assets / (21.4 MB). Loaded Objects now: 11977.
+Memory consumption went from 253.7 MB to 232.3 MB.
+Total: 31.100300 ms (FindLiveObjects: 1.768800 ms CreateObjectMapping: 1.620900 ms MarkObjects: 20.589200 ms  DeleteObjects: 7.118700 ms)
+
+Prepare: number of updated asset objects reloaded= 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Dialogue_BossDeath
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogueID: dialogue_boss_death
+  description: "M\xF4 t\u1EA3 ng\u1EAFn v\u1EC1 \u0111o\u1EA1n tho\u1EA1i"
+  lines:
+  - speaker: 4
+    text: "Cu\u1ED1i... c\xF9ng..."
+    emotion: 
+  - speaker: 4
+    text: "Ta \u0111\xE3 ch\u1EDD r\u1EA5t l\xE2u... ai \u0111\xF3 \u0111\u1EE7 m\u1EA1nh
+      \u0111\u1EC3 thay ta."
+    emotion: 
+  - speaker: 4
+    text: "Nh\u01B0ng ta kh\xF4ng th\u1EC3... \u0111\u1EC3 c\xE1c ng\u01B0\u01A1i
+      qua... n\u1EBFu ch\u01B0a hi\u1EC3u..."
+    emotion: 
+  - speaker: 4
+    text: "Th\u1EE9 b\xEAn kia c\u1ED5ng... kh\xF4ng ph\u1EA3i th\u1EBF gi\u1EDBi
+      c\u1EE7a c\xE1c ng\u01B0\u01A1i..."
+    emotion: 
+  - speaker: 4
+    text: "H\xE3y... h\xE3y ch\u1ECDn... \u0111\xFAng \u0111\u1EAFn..."
+    emotion: 
+  onDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []

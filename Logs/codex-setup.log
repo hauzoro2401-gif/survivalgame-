@@ -1,0 +1,22 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN" at "2026-05-16T10:34:23.9962581Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-16T10:34:23Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.6f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+c:\Users\ADMIN\My project (1)
+-executeMethod
+SetupGameScene.AutoSetupScene
+-logFile
+c:\Users\ADMIN\My project (1)\Logs\codex-setup.log
+Successfully changed project path to: c:\Users\ADMIN\My project (1)
+C:/Users/ADMIN/My project (1)
+Exiting without the bug reporter. Application will terminate with return code 1

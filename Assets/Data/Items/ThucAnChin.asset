@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f4f834eaf993ad4a95fb666ffe0a319, type: 3}
+  m_Name: ThucAnChin
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: "Th\u1EE9c \u0103n ch\xEDn"
+  description: "Th\u1EE9c \u0103n \u0111\xE3 n\u1EA5u ch\xEDn. H\u1ED3i \u0111\xF3i
+    v\xE0 kh\xE1t t\u1ED1t h\u01A1n nhi\u1EC1u."
+  icon: {fileID: 0}
+  itemType: 2
+  isStackable: 1
+  maxStack: 99
+  hungerRestore: 30
+  thirstRestore: 10
+  healthRestore: 0
+  damageBonus: 0
+  resourceType: 0

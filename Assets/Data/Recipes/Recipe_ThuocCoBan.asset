@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Recipe_ThuocCoBan
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "Thu\u1ED1c c\u01A1 b\u1EA3n"
+  description: "K\u1EBFt h\u1EE3p c\xE2y d\u01B0\u1EE3c li\u1EC7u v\u1EDBi tinh th\u1EC3.
+    H\u1ED3i ph\u1EE5c v\u1EBFt th\u01B0\u01A1ng hi\u1EC7u qu\u1EA3."
+  ingredients:
+  - item: {fileID: 11400000, guid: def6e4038c2deaa4086d455fc1ac808b, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: da8c3e9f26610764d94adcea9d16c8e9, type: 2}
+    amount: 1
+  result: {fileID: 11400000, guid: e9157bf748c5224458527d8e830cd5d8, type: 2}
+  resultAmount: 1
